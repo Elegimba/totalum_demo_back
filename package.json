@@ -19,7 +19,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^5.0.0"
+    "express": "^5.0.0",
+    "totalum-api-sdk": "^2.0.40"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
