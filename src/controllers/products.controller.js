@@ -11,7 +11,8 @@ const getAll = async (req, res) => {
                 limit: 50
             }
         });
-        console.log(response.data);
+
+        res.json(response.data.data);
     } catch (error) {
         console.error(error.toString());
         console.error(error?.response?.data);
